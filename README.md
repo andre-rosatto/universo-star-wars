@@ -1,12 +1,14 @@
-# Getting Started with Create React App
+# Universo Star Wars
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+App criado em React/Typescript para busca de informações sobre o universo Star Wars consumindo a API SWAPI (https://swapi.dev/).
+
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start`1
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

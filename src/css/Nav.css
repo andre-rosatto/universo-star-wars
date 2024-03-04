@@ -1,0 +1,42 @@
+.Nav {
+	padding: 15px 5px;
+	background-color: darkcyan;
+}
+
+.Nav nav {
+	display: grid;
+	grid-template-columns: repeat(6, 100px);
+	justify-content: center;
+	gap: 2px;
+}
+
+.Nav button {
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	user-select: none;
+	background-position: 7px center;
+	background-size: 15px;
+	background-repeat: no-repeat;
+	padding-left: 27px;
+	text-align: left;
+}
+
+.Nav button.selected {
+	background-color: #222;
+	color: white;
+	pointer-events: none;
+	background-size: 0;
+	padding-left: 0;
+	text-align: center;
+}
+
+@media screen and (max-width: 620px) {
+	.Nav nav {
+		display: grid;
+		grid-template-columns: repeat(3, 100px);
+		justify-content: center;
+		gap: 2px;
+	}
+}

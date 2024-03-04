@@ -1,0 +1,28 @@
+.ResourceList {
+	margin: 0;
+	padding: 0;
+}
+
+.ResourceList li {
+	list-style: none;
+	font-size: 20px;
+	font-weight: bold;
+	user-select: none;
+	margin-bottom: 2px;
+	background-color: #ddd;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.ResourceList li.selected {
+	background-color: #222;
+	color: white;
+	pointer-events: none;
+}
+
+@media screen and (max-width: 620px) {
+	.ResourceList li {
+		font-size: 14px;
+	}
+}
